@@ -20,6 +20,7 @@ dimensions = {}
 
 for key, value in wms[layer_name].dimensions.items():
     print("key: ", key)
+    print("value: ", value)
     if key == 'time':
         key2 = key
     else:
