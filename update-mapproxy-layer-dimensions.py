@@ -19,10 +19,17 @@ wms = WebMapService(url, version='1.3.0')
 dimensions = {}
 
 for key, value in wms[layer_name].dimensions.items():
-    dimensions[key] = { 
+    print("key: ", key)
+    if key == 'time':
+        key2 = key
+    else:
+        key2 = 'dim_{}'.format(key)
+
+    dimensions[key2] = {
         'default': value['default'],
         'values': value['values']
     }
+    print(dimensions)
 
 if not dimensions:
     print('No dimensions found')
