@@ -34,7 +34,7 @@ if not dimensions:
     sys.exit(1)
 
 with open(mapproxy_config) as fh:
-    dict_ = yaml.load(fh, Loader=yaml.FullLoader)
+    dict_ = yaml.safe_load(fh)
 
     for layer in dict_['layers']:
         if layer['name'] == layer_name:
