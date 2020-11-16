@@ -19,6 +19,7 @@ wms = WebMapService(url, version='1.3.0')
 dimensions = {}
 
 for key, value in wms[layer_name].dimensions.items():
+    print("key: ", key)
     if key == 'time':
         key2 = key
     else:
