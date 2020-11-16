@@ -40,8 +40,8 @@ with open(mapproxy_config) as fh:
     dict_ = yaml.safe_load(fh)
 
     for layer in dict_['layers']:
-        print("layer: ", layer)
         if layer['name'] == layer_name:
+            print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
             for key, value in dimensions.items():
                 layer['dimensions'][key] = value
 
