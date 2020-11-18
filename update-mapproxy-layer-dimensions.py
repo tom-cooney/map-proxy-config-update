@@ -10,6 +10,7 @@ from owslib.wms import WebMapService
 import yaml
 
 layer_name = sys.argv[1]
+print(sys.argv[0])
 print(sys.argv[1])
 mapproxy_config = sys.argv[2]
 
