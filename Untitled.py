@@ -25,11 +25,11 @@ def update_config(mapproxy_config, layers_to_update):
 
 
 def wms_update_layer_dimensions(input_layers, mapproxy_config):
-
+    start = time.time()
     layer_list = input_layers.split(",")
     layers_to_update = {}
     for layer_name in layer_list:
-        start = time.time()
+        loop_start = time.time()
         url = 'https://geo.weather.gc.ca/geomet?layer={}'.format(layer_name)
         wms = WebMapService(url, version='1.3.0')
 
@@ -43,18 +43,80 @@ def wms_update_layer_dimensions(input_layers, mapproxy_config):
                     'values': wms[layer_name].dimensions[dimension]['values']
                 }
 
-        end = time.time()
-        print("1 iteration of loop run time: ", end - start)
+        loop_end = time.time()
+        print("1 iteration of loop run time: ", loop_end - loop_start)
+        
+    end = time.time()
+    print("total run time: ", end - start)
     dict_ = update_config(mapproxy_config, layers_to_update)
 
     return dict_
-    
+
+def global_xml__update_layer_dimensions(input_layers, mapproxy_config):
+    layer_list = input_layers.split(",")
+    layers_to_update = {}
+    start = time.time()
+    with open('/data/web/geomet2-nightly/latest/build/conf/geomet-wms-1.3.0-capabilities-en.xml', 'rb') as fh:
+        buffer = fh.read()
+
+        wms = WebMapService('url', version='1.3.0', xml=buffer)
+
+        pre_loop_time = time.time()
+        print("setup time: ", pre_loop_time - start)
+        for layer_name in layer_list:
+            loop_start = time.time()
+            dimensions_list = ['time', 'reference_time']
+            for dimension in dimensions_list:
+                if dimension in wms[layer_name].dimensions.keys():
+                    if layer_name not in layers_to_update.keys():
+                        layers_to_update[layer_name] = {}
+                    layers_to_update[layer_name][dimension] = {
+                        'default': wms[layer_name].dimensions[dimension]['default'],
+                        'values': wms[layer_name].dimensions[dimension]['values']
+                    }
+            loop_end = time.time()
+            print("1 iteration of loop run time: ", loop_end - loop_start)
+
+    end = time.time()
+    print("total run time: ", end - start)
+    dict_ = update_config(mapproxy_config, layers_to_update)
+
+    return dict_
+                      
+        
+# def global_mapfile__update_layer_dimensions(input_layers, mapproxy_config, MAPPROXY_MAPFILE_DIR):
+#     layer_list = input_layers.split(",")
+#     layers_to_update = {}
+#     filepath = os.path.join(MAPPROXY_MAPFILE_DIR, 'geomet-en.map')
+#     f = mappyfile.open(filepath)
+#     start = time.time()
+#     for layer_name in layer_list:
+        
+#         if layer_name not in layers_to_update.keys():
+#             layers_to_update[layer_name] = {}
+#         if ('wms_timeextent' in f['layers'][0]['metadata'].keys()):
+#             layers_to_update[layer_name]['time'] = {
+#                 'default': f['layers'][0]['metadata']['wms_timedefault'],
+#                 'values': [f['layers'][0]['metadata']['wms_timeextent']]
+#             }
+#         if ('wms_reference_time_default' in f['layers'][0]['metadata'].keys()):
+#             layers_to_update[layer_name]['reference_time'] = {
+#                 'default': f['layers'][0]['metadata']['wms_reference_time_default'],
+#                 'values': [f['layers'][0]['metadata']['wms_reference_time_extent']]
+#             }
+
+#     end = time.time()
+#     print("1 iteration of loop run time: ", end - start)
+#     dict_ = update_config(mapproxy_config, layers_to_update)                   
+
+#     return dict_
 
 def mapfile_update_layer_dimensions(input_layers, mapproxy_config, MAPPROXY_MAPFILE_DIR):
+    start = time.time()
     layer_list = input_layers.split(",")
     layers_to_update = {}
     for layer_name in layer_list:
-        start = time.time()
+        loop_start = time.time()
         filepath = os.path.join(MAPPROXY_MAPFILE_DIR, 'geomet-{}-en.map'.format(layer_name))
         f = mappyfile.open(filepath)
         
@@ -71,8 +133,10 @@ def mapfile_update_layer_dimensions(input_layers, mapproxy_config, MAPPROXY_MAPF
                 'values': [f['layers'][0]['metadata']['wms_reference_time_extent']]
             }
 
-        end = time.time()
-        print("1 iteration of loop run time: ", end - start)
+        loop_end = time.time()
+        print("1 iteration of loop run time: ", loop_end - loop_start)
+    end = time.time()
+    print("total run time: ", end - start)
     dict_ = update_config(mapproxy_config, layers_to_update)                   
 
     return dict_
@@ -85,10 +149,15 @@ def mapfile_update_layer_dimensions(input_layers, mapproxy_config, MAPPROXY_MAPF
 def cli(input_layers, mapproxy_config, mode):
     if 'wms' in mode:
         output_dict = wms_update_layer_dimensions(input_layers, mapproxy_config)
+    elif 'xml' in mode:
+        output_dict = global_xml__update_layer_dimensions(input_layers, mapproxy_config)
+#     elif 'global-mapfile' in mode:
+#         MAPPROXY_MAPFILE_DIR = os.getenv('MAPPROXY_MAPFILE_DIR', None)
+#         output_dict = global_mapfile__update_layer_dimensions(input_layers, mapproxy_config, MAPPROXY_MAPFILE_DIR)
     elif 'mapfile' in mode:
         """
         in bash doing something like 
-        `export MAPPROXY_MAPFILE_DIR=/data/geomet/conf` 
+        `export MAPPROXY_MAPFILE_DIR=/data/web/geomet2-nightly/latest/build/conf/` 
         will create the `MAPPROXY_MAPFILE_DIR` environment variable
         """
         # if the MAPPROXY_MAPFILE_DIR environment variable doesn't exist it will set it to None by default
