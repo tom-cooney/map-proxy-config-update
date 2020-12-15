@@ -17,24 +17,24 @@ layers:
     \ temperature [\xB0C]"
 - dimensions:
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T12:00:00Z/2020-12-15T15:00:00Z/PT10M']
+      default: '2020-12-15T16:40:00Z'
+      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
   name: RADAR_1KM_RRAI
   sources: [canada_cache]
   title: RADAR_1KM_RRAI - North American radar composite (1 km) - Radar precipitation
     rate (Rain) (1 km) [mm/hr]
 - dimensions:
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T12:00:00Z/2020-12-15T15:00:00Z/PT10M']
+      default: '2020-12-15T16:40:00Z'
+      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
   name: RADAR_1KM_RDBR
   sources: [canada_cache]
   title: RADAR_1KM_RDBR - North American radar composite (1 km) - Radar reflectivity
     (Rain) (1 km) [dBZ]
 - dimensions:
     time:
-      default: '2020-12-15T15:10:00Z'
-      values: ['2020-12-15T12:10:00Z/2020-12-15T15:10:00Z/PT10M']
+      default: '2020-12-15T16:40:00Z'
+      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
   name: RADAR_1KM_RSNO
   sources: [canada_cache]
   title: RADAR_1KM_RSNO - North American radar composite (1 km) - Radar precipitation
@@ -63,41 +63,41 @@ layers:
     cloud cover [%]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_TT
   sources: [canada_cache]
   title: "HRDPS.CONTINENTAL_TT - High Resolution Deterministic Prediction System (HRDPS)\
     \ [2.5 km] - Air temperature [\xB0C]"
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_HR
   sources: [canada_cache]
   title: HRDPS.CONTINENTAL_HR - High Resolution Deterministic Prediction System (HRDPS)
     [2.5 km] - Relative humidity [%]
 - dimensions:
     time:
-      default: '2020-12-15T15:10:00Z'
-      values: ['2020-12-15T12:10:00Z/2020-12-15T15:10:00Z/PT10M']
+      default: '2020-12-15T16:40:00Z'
+      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
   name: RADAR_COVERAGE_RRAI.INV
   sources: [canada_cache]
   title: RADAR_COVERAGE_RRAI.INV - North American radar composite (1 km) - inverted
     (Rain) (1km)
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_TD
   sources: [canada_cache]
   title: "HRDPS.CONTINENTAL_TD - High Resolution Deterministic Prediction System (HRDPS)\
@@ -115,11 +115,11 @@ layers:
     precipitation rate [kg/(m^2 s)]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_NT
   sources: [canada_cache]
   title: HRDPS.CONTINENTAL_NT - High Resolution Deterministic Prediction System (HRDPS)
@@ -137,11 +137,11 @@ layers:
     depth [m]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T07:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_PR
   sources: [canada_cache]
   title: HRDPS.CONTINENTAL_PR - High Resolution Deterministic Prediction System (HRDPS)
@@ -170,66 +170,66 @@ layers:
     humidity [%]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_WGE
   sources: [canada_cache]
   title: HRDPS.CONTINENTAL_WGE - High Resolution Deterministic Prediction System (HRDPS)
     [2.5 km] - Wind gust estimate [m/s]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_SD
   sources: [canada_cache]
   title: RDPS.ETA_SD - Regional Deterministic Prediction System (RDPS) [10 km] - Snow
     depth [m]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T07:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL.DIAG_PTYPE
   sources: [canada_cache]
   title: HRDPS.CONTINENTAL.DIAG_PTYPE - High Resolution Deterministic Prediction System
     (HRDPS) [2.5 km] - HRDPS diagnostic variables
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_PN-SLP
   sources: [canada_cache]
   title: HRDPS.CONTINENTAL_PN-SLP - High Resolution Deterministic Prediction System
     (HRDPS) [2.5 km] - HRDPS diagnostic variables
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_NT
   sources: [canada_cache]
   title: RDPS.ETA_NT -Regional Deterministic Prediction System (RDPS) [10 km] - Total
     cloud cover [%]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T07:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_SN
   sources: [canada_cache]
   title: RDPS.ETA_SN -Regional Deterministic Prediction System (RDPS) [10 km] - Snow
@@ -247,30 +247,30 @@ layers:
     Wind speed [m/s]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_TT
   sources: [canada_cache]
   title: "RDPS.ETA_TT - Regional Deterministic Prediction System (RDPS) [10 km]- Air\
     \ temperature [\xB0C]"
 - dimensions:
     time:
-      default: '2020-12-15T15:10:00Z'
-      values: ['2020-12-15T12:10:00Z/2020-12-15T15:10:00Z/PT10M']
+      default: '2020-12-15T16:40:00Z'
+      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
   name: RADAR_COVERAGE_RRAI
   sources: [canada_cache]
   title: RADAR_COVERAGE_RRAI - North American radar composite (1 km)- Dynamic radar
     coverage (Rain) (1km)
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T07:00:00Z/2020-12-17T06:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: CGSL.ETA_ICEC
   sources: [canada_cache]
   title: CGSL.ETA_ICEC - RDPS Coupled to Gulf of St. Lawrence (RDPS-CGSL)- Ice cover
@@ -288,11 +288,11 @@ layers:
     accumulation [kg/(m^2)]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-12T00:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-12T00:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T07:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.DIAG_NW_PT1H
   sources: [canada_cache]
   title: RDPS.DIAG_NW_PT1H - Regional Deterministic Prediction System (RDPS) [10 km]
@@ -318,22 +318,22 @@ layers:
     \ direction [\xB0]"
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_WGE
   sources: [canada_cache]
   title: RDPS.ETA_WGE - Regional Deterministic Prediction System (RDPS) [10 km] -
     Wind gust estimate [m/s]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T07:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_PR
   sources: [canada_cache]
   title: RDPS.ETA_PR - Regional Deterministic Prediction System (RDPS) [10 km] - Precipitation
@@ -362,55 +362,55 @@ layers:
     gust estimate [m/s]
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T06:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_PN
   sources: [canada_cache]
   title: RDPS.ETA_PN - Regional Deterministic Prediction System (RDPS) [10 km] - Sea
     level pressure (contour) [Pa]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-13T12:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-13T12:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
       default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T03:00:00Z/2020-12-18T00:00:00Z/PT3H']
+      values: ['2020-12-15T15:00:00Z/2020-12-18T12:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERGE1
   sources: [canada_cache]
   title: REPS.DIAG.3_PRMM.ERGE1 - Regional Ensemble Prediction System (REPS) - Quantity
     of precipitation >= 1 mm [probability %]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-13T12:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-13T12:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
       default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T03:00:00Z/2020-12-18T00:00:00Z/PT3H']
+      values: ['2020-12-15T15:00:00Z/2020-12-18T12:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERGE5
   sources: [canada_cache]
   title: REPS.DIAG.3_PRMM.ERGE5 - Regional Ensemble Prediction System (REPS) - Quantity
     of precipitation >= 5 mm [probability %]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-13T12:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-13T12:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
       default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T03:00:00Z/2020-12-18T00:00:00Z/PT3H']
+      values: ['2020-12-15T15:00:00Z/2020-12-18T12:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERMEAN
   sources: [canada_cache]
   title: REPS.DIAG.3_PRMM.ERMEAN - Regional Ensemble Prediction System (REPS) - Quantity
     of precipitation (mean)
 - dimensions:
     reference_time:
-      default: '2020-12-15T06:00:00Z'
-      values: ['2020-12-14T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T14:00:00Z'
-      values: ['2020-12-15T07:00:00Z/2020-12-17T12:00:00Z/PT1H']
+      default: '2020-12-15T16:00:00Z'
+      values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_RT
   sources: [canada_cache]
   title: RDPS.ETA_RT - Regional Deterministic Prediction System (RDPS) [10 km] - Instantaneous
@@ -424,6 +424,6 @@ sources:
   canada:
     req:
       forward_req_params: [time, reference_time]
-      layers: GDPS.ETA_TT,RADAR_1KM_RRAI,RADAR_1KM_RDBR,RADAR_1KM_RSNO,GDPS.ETA_UU,GDPS.ETA_NT,HRDPS.CONTINENTAL_TT,HRDPS.CONTINENTAL_HR,RADAR_COVERAGE_RRAI.INV,HRDPS.CONTINENTAL_TD,GDPS.ETA_RT,HRDPS.CONTINENTAL_NT,GDPS.ETA_SD,HRDPS.CONTINENTAL_PR,GDPS.ETA_PR,GDPS.ETA_HR,HRDPS.CONTINENTAL_WGE,RDPS.ETA_SD,HRDPS.CONTINENTAL.DIAG_PTYPE,HRDPS.CONTINENTAL_PN-SLP,RDPS.ETA_NT,RDPS.ETA_SN,GDPS.ETA_WSPD,RDPS.ETA_TT,RADAR_COVERAGE_RRAI,CGSL.ETA_ICEC,GDPS.ETA_SN,RDPS.DIAG_NW_PT1H,RDPA.6F_PR,GDPS.ETA_WD,RDPS.ETA_WGE,RDPS.ETA_PR,GDPS.ETA_RN,GDPS.ETA_WGE,RDPS.ETA_PN,REPS.DIAG.3_PRMM.ERGE1,REPS.DIAG.3_PRMM.ERGE5,REPS.DIAG.3_PRMM.ERMEAN,RDPS.ETA_RT
+      layers: RDPS.ETA_RT
       url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
     type: wms
