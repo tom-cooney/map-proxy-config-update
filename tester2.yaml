@@ -1,42 +1,156 @@
 caches:
-  canada_cache:
+  CGSL.ETA_ICEC_cache:
     grids: [GLOBAL_GEODETIC]
-    sources: [canada]
+    sources: [CGSL.ETA_ICEC_source]
+  GDPS.ETA_HR_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_HR_source]
+  GDPS.ETA_NT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_NT_source]
+  GDPS.ETA_PR_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_PR_source]
+  GDPS.ETA_RN_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_RN_source]
+  GDPS.ETA_RT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_RT_source]
+  GDPS.ETA_SD_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_SD_source]
+  GDPS.ETA_SN_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_SN_source]
+  GDPS.ETA_TT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_TT_source]
+  GDPS.ETA_UU_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_UU_source]
+  GDPS.ETA_WD_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_WD_source]
+  GDPS.ETA_WGE_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_WGE_source]
+  GDPS.ETA_WSPD_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [GDPS.ETA_WSPD_source]
+  HRDPS.CONTINENTAL.DIAG_PTYPE_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL.DIAG_PTYPE_source]
+  HRDPS.CONTINENTAL_HR_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL_HR_source]
+  HRDPS.CONTINENTAL_NT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL_NT_source]
+  HRDPS.CONTINENTAL_PN-SLP_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL_PN-SLP_source]
+  HRDPS.CONTINENTAL_PR_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL_PR_source]
+  HRDPS.CONTINENTAL_TD_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL_TD_source]
+  HRDPS.CONTINENTAL_TT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL_TT_source]
+  HRDPS.CONTINENTAL_WGE_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [HRDPS.CONTINENTAL_WGE_source]
+  RADAR_1KM_RDBR_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RADAR_1KM_RDBR_source]
+  RADAR_1KM_RRAI_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RADAR_1KM_RRAI_source]
+  RADAR_1KM_RSNO_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RADAR_1KM_RSNO_source]
+  RADAR_COVERAGE_RRAI.INV_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RADAR_COVERAGE_RRAI.INV_source]
+  RADAR_COVERAGE_RRAI_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RADAR_COVERAGE_RRAI_source]
+  RDPA.6F_PR_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPA.6F_PR_source]
+  RDPS.DIAG_NW_PT1H_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.DIAG_NW_PT1H_source]
+  RDPS.ETA_NT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_NT_source]
+  RDPS.ETA_PN_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_PN_source]
+  RDPS.ETA_PR_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_PR_source]
+  RDPS.ETA_RT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_RT_source]
+  RDPS.ETA_SD_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_SD_source]
+  RDPS.ETA_SN_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_SN_source]
+  RDPS.ETA_TT_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_TT_source]
+  RDPS.ETA_WGE_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [RDPS.ETA_WGE_source]
+  REPS.DIAG.3_PRMM.ERGE1_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [REPS.DIAG.3_PRMM.ERGE1_source]
+  REPS.DIAG.3_PRMM.ERGE5_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [REPS.DIAG.3_PRMM.ERGE5_source]
+  REPS.DIAG.3_PRMM.ERMEAN_cache:
+    grids: [GLOBAL_GEODETIC]
+    sources: [REPS.DIAG.3_PRMM.ERMEAN_source]
 globals: null
 layers:
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T00:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_TT
-  sources: [canada_cache]
+  sources: [GDPS.ETA_TT_cache]
   title: "GDPS.ETA_TT - Global Deterministic Prediction System (GDPS) [15 km] - Air\
     \ temperature [\xB0C]"
 - dimensions:
     time:
-      default: '2020-12-15T16:40:00Z'
-      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
+      default: '2020-12-15T18:50:00Z'
+      values: ['2020-12-15T15:50:00Z/2020-12-15T18:50:00Z/PT10M']
   name: RADAR_1KM_RRAI
-  sources: [canada_cache]
+  sources: [RADAR_1KM_RRAI_cache]
   title: RADAR_1KM_RRAI - North American radar composite (1 km) - Radar precipitation
     rate (Rain) (1 km) [mm/hr]
 - dimensions:
     time:
-      default: '2020-12-15T16:40:00Z'
-      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
+      default: '2020-12-15T18:40:00Z'
+      values: ['2020-12-15T15:40:00Z/2020-12-15T18:40:00Z/PT10M']
   name: RADAR_1KM_RDBR
-  sources: [canada_cache]
+  sources: [RADAR_1KM_RDBR_cache]
   title: RADAR_1KM_RDBR - North American radar composite (1 km) - Radar reflectivity
     (Rain) (1 km) [dBZ]
 - dimensions:
     time:
-      default: '2020-12-15T16:40:00Z'
-      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
+      default: '2020-12-15T18:50:00Z'
+      values: ['2020-12-15T15:50:00Z/2020-12-15T18:50:00Z/PT10M']
   name: RADAR_1KM_RSNO
-  sources: [canada_cache]
+  sources: [RADAR_1KM_RSNO_cache]
   title: RADAR_1KM_RSNO - North American radar composite (1 km) - Radar precipitation
     rate (Snow) (1 km) [cm/hr]
 - dimensions:
@@ -47,18 +161,18 @@ layers:
       default: '2020-12-14T18:00:00Z'
       values: ['2020-12-14T12:00:00Z/2020-12-24T12:00:00Z/PT3H']
   name: GDPS.ETA_UU
-  sources: [canada_cache]
+  sources: [GDPS.ETA_UU_cache]
   title: GDPS.ETA_UU - Global Deterministic Prediction System (GDPS) [15 km] - Winds
     [m/s]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T00:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_NT
-  sources: [canada_cache]
+  sources: [GDPS.ETA_NT_cache]
   title: GDPS.ETA_NT - Global Deterministic Prediction System (GDPS) [15 km] - Total
     cloud cover [%]
 - dimensions:
@@ -66,10 +180,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_TT
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL_TT_cache]
   title: "HRDPS.CONTINENTAL_TT - High Resolution Deterministic Prediction System (HRDPS)\
     \ [2.5 km] - Air temperature [\xB0C]"
 - dimensions:
@@ -77,18 +191,18 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_HR
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL_HR_cache]
   title: HRDPS.CONTINENTAL_HR - High Resolution Deterministic Prediction System (HRDPS)
     [2.5 km] - Relative humidity [%]
 - dimensions:
     time:
-      default: '2020-12-15T16:40:00Z'
-      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
+      default: '2020-12-15T18:50:00Z'
+      values: ['2020-12-15T15:50:00Z/2020-12-15T18:50:00Z/PT10M']
   name: RADAR_COVERAGE_RRAI.INV
-  sources: [canada_cache]
+  sources: [RADAR_COVERAGE_RRAI.INV_cache]
   title: RADAR_COVERAGE_RRAI.INV - North American radar composite (1 km) - inverted
     (Rain) (1km)
 - dimensions:
@@ -96,21 +210,21 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_TD
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL_TD_cache]
   title: "HRDPS.CONTINENTAL_TD - High Resolution Deterministic Prediction System (HRDPS)\
     \ [2.5 km] - Dew point temperature [\xB0C]"
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T03:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T15:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_RT
-  sources: [canada_cache]
+  sources: [GDPS.ETA_RT_cache]
   title: GDPS.ETA_RT - Global Deterministic Prediction System (GDPS) [15 km] - Instantaneous
     precipitation rate [kg/(m^2 s)]
 - dimensions:
@@ -118,21 +232,21 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_NT
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL_NT_cache]
   title: HRDPS.CONTINENTAL_NT - High Resolution Deterministic Prediction System (HRDPS)
     [2.5 km] - Total cloud cover [%]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T00:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_SD
-  sources: [canada_cache]
+  sources: [GDPS.ETA_SD_cache]
   title: GDPS.ETA_SD - Global Deterministic Prediction System (GDPS) [15 km] - Snow
     depth [m]
 - dimensions:
@@ -140,32 +254,32 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_PR
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL_PR_cache]
   title: HRDPS.CONTINENTAL_PR - High Resolution Deterministic Prediction System (HRDPS)
     [2.5 km] - Precipitation accumulation [kg/(m^2)]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T03:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T15:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_PR
-  sources: [canada_cache]
+  sources: [GDPS.ETA_PR_cache]
   title: GDPS.ETA_PR - Global Deterministic Prediction System (GDPS) [15 km] - Precipitation
     accumulation [kg/(m^2)]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T00:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_HR
-  sources: [canada_cache]
+  sources: [GDPS.ETA_HR_cache]
   title: GDPS.ETA_HR - Global Deterministic Prediction System (GDPS) [15 km] - Relative
     humidity [%]
 - dimensions:
@@ -173,10 +287,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_WGE
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL_WGE_cache]
   title: HRDPS.CONTINENTAL_WGE - High Resolution Deterministic Prediction System (HRDPS)
     [2.5 km] - Wind gust estimate [m/s]
 - dimensions:
@@ -184,10 +298,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_SD
-  sources: [canada_cache]
+  sources: [RDPS.ETA_SD_cache]
   title: RDPS.ETA_SD - Regional Deterministic Prediction System (RDPS) [10 km] - Snow
     depth [m]
 - dimensions:
@@ -195,10 +309,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL.DIAG_PTYPE
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL.DIAG_PTYPE_cache]
   title: HRDPS.CONTINENTAL.DIAG_PTYPE - High Resolution Deterministic Prediction System
     (HRDPS) [2.5 km] - HRDPS diagnostic variables
 - dimensions:
@@ -206,10 +320,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_PN-SLP
-  sources: [canada_cache]
+  sources: [HRDPS.CONTINENTAL_PN-SLP_cache]
   title: HRDPS.CONTINENTAL_PN-SLP - High Resolution Deterministic Prediction System
     (HRDPS) [2.5 km] - HRDPS diagnostic variables
 - dimensions:
@@ -217,10 +331,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_NT
-  sources: [canada_cache]
+  sources: [RDPS.ETA_NT_cache]
   title: RDPS.ETA_NT -Regional Deterministic Prediction System (RDPS) [10 km] - Total
     cloud cover [%]
 - dimensions:
@@ -228,21 +342,21 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_SN
-  sources: [canada_cache]
+  sources: [RDPS.ETA_SN_cache]
   title: RDPS.ETA_SN -Regional Deterministic Prediction System (RDPS) [10 km] - Snow
     accumulation [kg/(m^2)]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T00:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_WSPD
-  sources: [canada_cache]
+  sources: [GDPS.ETA_WSPD_cache]
   title: GDPS.ETA_WSPD - RGlobal Deterministic Prediction System (GDPS) [15 km] -
     Wind speed [m/s]
 - dimensions:
@@ -250,18 +364,18 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_TT
-  sources: [canada_cache]
+  sources: [RDPS.ETA_TT_cache]
   title: "RDPS.ETA_TT - Regional Deterministic Prediction System (RDPS) [10 km]- Air\
     \ temperature [\xB0C]"
 - dimensions:
     time:
-      default: '2020-12-15T16:40:00Z'
-      values: ['2020-12-15T13:40:00Z/2020-12-15T16:40:00Z/PT10M']
+      default: '2020-12-15T18:50:00Z'
+      values: ['2020-12-15T15:50:00Z/2020-12-15T18:50:00Z/PT10M']
   name: RADAR_COVERAGE_RRAI
-  sources: [canada_cache]
+  sources: [RADAR_COVERAGE_RRAI_cache]
   title: RADAR_COVERAGE_RRAI - North American radar composite (1 km)- Dynamic radar
     coverage (Rain) (1km)
 - dimensions:
@@ -269,21 +383,21 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: CGSL.ETA_ICEC
-  sources: [canada_cache]
+  sources: [CGSL.ETA_ICEC_cache]
   title: CGSL.ETA_ICEC - RDPS Coupled to Gulf of St. Lawrence (RDPS-CGSL)- Ice cover
     fraction
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T03:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T15:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_SN
-  sources: [canada_cache]
+  sources: [GDPS.ETA_SN_cache]
   title: GDPS.ETA_SN - Global Deterministic Prediction System (GDPS) [15 km] - Snow
     accumulation [kg/(m^2)]
 - dimensions:
@@ -291,10 +405,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-12T00:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.DIAG_NW_PT1H
-  sources: [canada_cache]
+  sources: [RDPS.DIAG_NW_PT1H_cache]
   title: RDPS.DIAG_NW_PT1H - Regional Deterministic Prediction System (RDPS) [10 km]
     - RDPS diagnostic variables
 - dimensions:
@@ -302,18 +416,18 @@ layers:
       default: '2020-12-15T06:00:00Z'
       values: ['2012-10-03T06:00:00Z/2020-12-15T06:00:00Z/PT6H']
   name: RDPA.6F_PR
-  sources: [canada_cache]
+  sources: [RDPA.6F_PR_cache]
   title: RDPA.6F_PR - RRegional Deterministic Precipitation Analysis (RDPA) - Quantity
     of precipitation [mm]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T00:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_WD
-  sources: [canada_cache]
+  sources: [GDPS.ETA_WD_cache]
   title: "GDPS.ETA_WD - Global Deterministic Prediction System (GDPS) [15 km] - Wind\
     \ direction [\xB0]"
 - dimensions:
@@ -321,10 +435,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_WGE
-  sources: [canada_cache]
+  sources: [RDPS.ETA_WGE_cache]
   title: RDPS.ETA_WGE - Regional Deterministic Prediction System (RDPS) [10 km] -
     Wind gust estimate [m/s]
 - dimensions:
@@ -332,32 +446,32 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_PR
-  sources: [canada_cache]
+  sources: [RDPS.ETA_PR_cache]
   title: RDPS.ETA_PR - Regional Deterministic Prediction System (RDPS) [10 km] - Precipitation
     accumulation [kg/(m^2)]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T03:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T15:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_RN
-  sources: [canada_cache]
+  sources: [GDPS.ETA_RN_cache]
   title: GDPS.ETA_RN - Regional Deterministic Prediction System (RDPS) [10 km] - Rain
     accumulation [kg/(m^2)]
 - dimensions:
     reference_time:
-      default: '2020-12-15T00:00:00Z'
-      values: ['2020-12-14T00:00:00Z/2020-12-15T00:00:00Z/PT12H']
+      default: '2020-12-15T12:00:00Z'
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
-      values: ['2020-12-15T00:00:00Z/2020-12-25T00:00:00Z/PT3H']
+      default: '2020-12-15T18:00:00Z'
+      values: ['2020-12-15T12:00:00Z/2020-12-25T12:00:00Z/PT3H']
   name: GDPS.ETA_WGE
-  sources: [canada_cache]
+  sources: [GDPS.ETA_WGE_cache]
   title: GDPS.ETA_WGE - Global Deterministic Prediction System (GDPS) [15 km] - Wind
     gust estimate [m/s]
 - dimensions:
@@ -365,43 +479,43 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T12:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_PN
-  sources: [canada_cache]
+  sources: [RDPS.ETA_PN_cache]
   title: RDPS.ETA_PN - Regional Deterministic Prediction System (RDPS) [10 km] - Sea
     level pressure (contour) [Pa]
 - dimensions:
     reference_time:
       default: '2020-12-15T12:00:00Z'
-      values: ['2020-12-13T12:00:00Z/2020-12-15T12:00:00Z/PT12H']
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T15:00:00Z/2020-12-18T12:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERGE1
-  sources: [canada_cache]
+  sources: [REPS.DIAG.3_PRMM.ERGE1_cache]
   title: REPS.DIAG.3_PRMM.ERGE1 - Regional Ensemble Prediction System (REPS) - Quantity
     of precipitation >= 1 mm [probability %]
 - dimensions:
     reference_time:
       default: '2020-12-15T12:00:00Z'
-      values: ['2020-12-13T12:00:00Z/2020-12-15T12:00:00Z/PT12H']
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T15:00:00Z/2020-12-18T12:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERGE5
-  sources: [canada_cache]
+  sources: [REPS.DIAG.3_PRMM.ERGE5_cache]
   title: REPS.DIAG.3_PRMM.ERGE5 - Regional Ensemble Prediction System (REPS) - Quantity
     of precipitation >= 5 mm [probability %]
 - dimensions:
     reference_time:
       default: '2020-12-15T12:00:00Z'
-      values: ['2020-12-13T12:00:00Z/2020-12-15T12:00:00Z/PT12H']
+      values: ['2020-12-14T00:00:00Z/2020-12-15T12:00:00Z/PT12H']
     time:
-      default: '2020-12-15T15:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T15:00:00Z/2020-12-18T12:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERMEAN
-  sources: [canada_cache]
+  sources: [REPS.DIAG.3_PRMM.ERMEAN_cache]
   title: REPS.DIAG.3_PRMM.ERMEAN - Regional Ensemble Prediction System (REPS) - Quantity
     of precipitation (mean)
 - dimensions:
@@ -409,10 +523,10 @@ layers:
       default: '2020-12-15T12:00:00Z'
       values: ['2020-12-14T06:00:00Z/2020-12-15T12:00:00Z/PT6H']
     time:
-      default: '2020-12-15T16:00:00Z'
+      default: '2020-12-15T18:00:00Z'
       values: ['2020-12-15T13:00:00Z/2020-12-17T12:00:00Z/PT1H']
   name: RDPS.ETA_RT
-  sources: [canada_cache]
+  sources: [RDPS.ETA_RT_cache]
   title: RDPS.ETA_RT - Regional Deterministic Prediction System (RDPS) [10 km] - Instantaneous
     precipitation rate [kg/(m^2 s)]
 services:
@@ -421,312 +535,237 @@ services:
     md: {title: Canada Meteo Example}
     versions: [1.3.0]
 sources:
-sources:
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_TT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-
- 
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RADAR_1KM_RRAI
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RADAR_1KM_RDBR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RADAR_1KM_RSNO
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_UU
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_NT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL_TT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL_HR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RADAR_COVERAGE_RRAI.INV
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL_TD
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_RT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL_NT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_SD
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL_PR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_PR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_HR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL_WGE
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_SD
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL.DIAG_PTYPE
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: HRDPS.CONTINENTAL_PN-SLP
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_NT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_SN
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_WSPD
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_TT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RADAR_COVERAGE_RRAI
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: CGSL.ETA_ICEC
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_SN
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.DIAG_NW_PT1H
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPA.6F_PR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_WD
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_WGE
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_PR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_RN
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: GDPS.ETA_WGE
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_PN
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: REPS.DIAG.3_PRMM.ERGE1
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: REPS.DIAG.3_PRMM.ERGE5
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: REPS.DIAG.3_PRMM.ERMEAN
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
-   
-   
- canada:
-   req:
-     forward_req_params: [time, reference_time]
-     layers: RDPS.ETA_RT
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-   type: wms
+  CGSL.ETA_ICEC_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: CGSL.ETA_ICEC
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_HR_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_HR
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_NT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_NT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_PR_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_PR
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_RN_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_RN
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_RT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_RT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_SD_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_SD
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_SN_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_SN
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_TT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_TT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_UU_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_UU
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_WD_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_WD
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_WGE_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_WGE
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  GDPS.ETA_WSPD_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: GDPS.ETA_WSPD
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL.DIAG_PTYPE_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL.DIAG_PTYPE
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL_HR_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL_HR
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL_NT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL_NT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL_PN-SLP_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL_PN-SLP
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL_PR_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL_PR
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL_TD_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL_TD
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL_TT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL_TT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  HRDPS.CONTINENTAL_WGE_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: HRDPS.CONTINENTAL_WGE
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RADAR_1KM_RDBR_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RADAR_1KM_RDBR
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RADAR_1KM_RRAI_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RADAR_1KM_RRAI
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RADAR_1KM_RSNO_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RADAR_1KM_RSNO
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RADAR_COVERAGE_RRAI.INV_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RADAR_COVERAGE_RRAI.INV
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RADAR_COVERAGE_RRAI_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RADAR_COVERAGE_RRAI
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPA.6F_PR_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPA.6F_PR
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.DIAG_NW_PT1H_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.DIAG_NW_PT1H
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_NT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_NT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_PN_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_PN
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_PR_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_PR
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_RT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_RT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_SD_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_SD
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_SN_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_SN
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_TT_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_TT
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  RDPS.ETA_WGE_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: RDPS.ETA_WGE
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  REPS.DIAG.3_PRMM.ERGE1_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: REPS.DIAG.3_PRMM.ERGE1
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  REPS.DIAG.3_PRMM.ERGE5_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: REPS.DIAG.3_PRMM.ERGE5
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
+  REPS.DIAG.3_PRMM.ERMEAN_source:
+    req:
+      forward_req_params: [time, reference_time]
+      layers: REPS.DIAG.3_PRMM.ERMEAN
+      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
+    type: wms
