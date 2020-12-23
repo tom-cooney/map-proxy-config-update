@@ -6,277 +6,277 @@ services:
     versions: [1.3.0]
 sources:
  GDPS.ETA_TT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_TT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms 
  RADAR_1KM_RRAI_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RADAR_1KM_RRAI
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RADAR_1KM_RDBR_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RADAR_1KM_RDBR
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RADAR_1KM_RSNO_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RADAR_1KM_RSNO
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_UU_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_UU
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_NT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_NT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL_TT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL_TT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL_HR_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL_HR
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RADAR_COVERAGE_RRAI.INV_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RADAR_COVERAGE_RRAI.INV
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL_TD_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL_TD
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_RT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_RT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL_NT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL_NT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_SD_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_SD
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL_PR_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL_PR
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_PR_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_PR
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_HR_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_HR
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL_WGE_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL_WGE
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPS.ETA_SD_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_SD
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL.DIAG_PTYPE_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL.DIAG_PTYPE
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  HRDPS.CONTINENTAL_PN-SLP_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: HRDPS.CONTINENTAL_PN-SLP
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPS.ETA_NT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_NT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPS.ETA_SN_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_SN
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_WSPD_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_WSPD
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPS.ETA_TT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_TT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RADAR_COVERAGE_RRAI_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RADAR_COVERAGE_RRAI
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  CGSL.ETA_ICEC_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: CGSL.ETA_ICEC
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_SN_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_SN
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPS.DIAG_NW_PT1H_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.DIAG_NW_PT1H
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPA.6F_PR_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPA.6F_PR
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_WD_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_WD
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPS.ETA_WGE_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_WGE
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  RDPS.ETA_PR_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_PR
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_RN_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_RN
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  GDPS.ETA_WGE_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: GDPS.ETA_WGE
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms 
  RDPS.ETA_PN_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_PN
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  REPS.DIAG.3_PRMM.ERGE1_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: REPS.DIAG.3_PRMM.ERGE1
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms  
  REPS.DIAG.3_PRMM.ERGE5_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: REPS.DIAG.3_PRMM.ERGE5
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
  REPS.DIAG.3_PRMM.ERMEAN_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: REPS.DIAG.3_PRMM.ERMEAN
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms   
  RDPS.ETA_RT_source:
+   forward_req_params: [time, dim_reference_time]
    req:
-     forward_req_params: [time, dim_reference_time]
      layers: RDPS.ETA_RT
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-	 transparent: true
+     transparent: true
    type: wms
 caches:
   GDPS.ETA_TT_cache:
