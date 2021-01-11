@@ -201,13 +201,6 @@ sources:
      url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
      transparent: true
    type: wms
- RDPA.6F_PR_source:
-   forward_req_params: [time, dim_reference_time]
-   req:
-     layers: RDPA.6F_PR
-     url: https://geo.wxod-dev.cmc.ec.gc.ca/geomet
-     transparent: true
-   type: wms
  GDPS.ETA_WD_source:
    forward_req_params: [time, dim_reference_time]
    req:
@@ -363,9 +356,6 @@ caches:
   RDPS.DIAG_NW_PT1H_cache:
     grids: [GLOBAL_GEODETIC]
     sources: [RDPS.DIAG_NW_PT1H_source]
-  RDPA.6F_PR_cache:
-    grids: [GLOBAL_GEODETIC]
-    sources: [RDPA.6F_PR_source]
   GDPS.ETA_WD_cache:
     grids: [GLOBAL_GEODETIC]
     sources: [GDPS.ETA_WD_source]
@@ -663,13 +653,6 @@ layers:
   name: RDPS.DIAG_NW_PT1H
   sources: [RDPS.DIAG_NW_PT1H_cache]
   title: RDPS.DIAG_NW_PT1H - Regional Deterministic Prediction System (RDPS) [10 km] - RDPS diagnostic variables
-- dimensions:
-    time:
-      default: null
-      values: []
-  name: RDPA.6F_PR
-  sources: [RDPA.6F_PR_cache]
-  title: RDPA.6F_PR - RRegional Deterministic Precipitation Analysis (RDPA) - Quantity of precipitation [mm]
 - dimensions:
     reference_time:
       default: null
