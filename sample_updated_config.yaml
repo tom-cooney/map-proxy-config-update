@@ -152,17 +152,6 @@ layers:
     rate (Snow) (1 km) [cm/hr]
 - dimensions:
     reference_time:
-      default: null
-      values: []
-    time:
-      default: null
-      values: []
-  name: GDPS.ETA_UU
-  sources: [GDPS.ETA_UU_cache]
-  title: GDPS.ETA_UU - Global Deterministic Prediction System (GDPS) [15 km] - Winds
-    [m/s]
-- dimensions:
-    reference_time:
       default: '2021-01-11T12:00:00Z'
       values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
     time:
