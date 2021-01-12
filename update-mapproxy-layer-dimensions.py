@@ -48,12 +48,13 @@ def update_config(mapproxy_config, layers_to_update):
     return dict_
 
 
-def update_from_wms(input_layers, mapproxy_config):
+def update_from_wms(input_layers, mapproxy_config, url):
+
     layer_list = input_layers.split(",")
     layers_to_update = {}
     for layer_name in layer_list:
-        url = 'https://geo.weather.gc.ca/geomet?layer={}'.format(layer_name)
-        wms = WebMapService(url, version='1.3.0')
+        url2 = '{}?layer={}'.format(url, layer_name)
+        wms = WebMapService(url2, version='1.3.0')
 
         dimensions_list = ['time', 'reference_time']
         for dimension in dimensions_list:
@@ -69,10 +70,10 @@ def update_from_wms(input_layers, mapproxy_config):
 
     return dict_
 
-def update_from_xml(input_layers, mapproxy_config):
+def update_from_xml(input_layers, mapproxy_config, file):
     layer_list = input_layers.split(",")
     layers_to_update = {}
-    with open('/data/web/geomet2-nightly/latest/build/conf/geomet-wms-1.3.0-capabilities-en.xml', 'rb') as fh:
+    with open(file, 'rb') as fh:
         buffer = fh.read()
 
         wms = WebMapService('url', version='1.3.0', xml=buffer)
@@ -93,11 +94,11 @@ def update_from_xml(input_layers, mapproxy_config):
     return dict_
 
 
-def update_from_mapfile(input_layers, mapproxy_config, MAPPROXY_MAPFILE_DIR):
+def update_from_mapfile(input_layers, mapproxy_config, mapfile_dir):
     layer_list = input_layers.split(",")
     layers_to_update = {}
     for layer_name in layer_list:
-        filepath = os.path.join(MAPPROXY_MAPFILE_DIR, 'geomet-{}-en.map'.format(layer_name))
+        filepath = os.path.join(mapfile_dir, 'geomet-{}-en.map'.format(layer_name))
         f = mappyfile.open(filepath)
         
         if layer_name not in layers_to_update.keys():
@@ -113,26 +114,26 @@ def update_from_mapfile(input_layers, mapproxy_config, MAPPROXY_MAPFILE_DIR):
                 'values': [f['layers'][0]['metadata']['wms_reference_time_extent']]
             }
 
-    dict_ = update_config(mapproxy_config, layers_to_update)                   
+    dict_ = update_config(mapproxy_config, layers_to_update)                
 
     return dict_
 
 
 @click.command()
-#@click.pass_context
 @click.option('--input_layers', 'input_layers', help='layers to update dimensions of in mapproxy config')
 @click.option('--mapproxy_config', 'mapproxy_config', help='mapproxy config to update layers and dimensions')
-@click.option('--mode', 'mode', type=click.Choice(['wms', 'xml', 'mapfile']), default='wms', help='select either wms or mapfile')
-def cli(input_layers, mapproxy_config, mode):
+@click.option('--mode', 'mode', type=click.Choice(['wms', 'xml', 'mapfile']), default='wms', help='select either wms or mapfile or xml')
+@click.option('--url', 'url', help='url for wms mode')
+@click.option('--file', 'file', help='file for mapfile or xml mode')
+@click.option('--mapfile_dir', 'mapfile_dir', help='direcotry containing mapfiles')
+def cli(input_layers, mapproxy_config, mode, url, file, mapfile_dir):
+
     if 'wms' in mode:
-        output_dict = update_from_wms(input_layers, mapproxy_config)
+        output_dict = update_from_wms(input_layers, mapproxy_config, url)
     elif 'xml' in mode:
-        output_dict = update_from_xml(input_layers, mapproxy_config)
+        output_dict = update_from_xml(input_layers, mapproxy_config, file)
     elif 'mapfile' in mode:
-        # if the MAPPROXY_MAPFILE_DIR environment variable doesn't exist it will set it to None by default
-        # in bash `export MAPPROXY_MAPFILE_DIR=/data/web/geomet2-nightly/latest/build/conf/`
-        MAPPROXY_MAPFILE_DIR = os.getenv('MAPPROXY_MAPFILE_DIR', None)
-        output_dict = update_from_mapfile(input_layers, mapproxy_config, MAPPROXY_MAPFILE_DIR)
+        output_dict = update_from_mapfile(input_layers, mapproxy_config, mapfile_dir)
         
     print(yaml.dump(output_dict))
 
