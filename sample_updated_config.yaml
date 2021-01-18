@@ -117,396 +117,369 @@ globals: null
 layers:
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_TT
   sources: [GDPS.ETA_TT_cache]
-  title: "GDPS.ETA_TT - Global Deterministic Prediction System (GDPS) [15 km] - Air\
-    \ temperature [\xB0C]"
+  title: GDPS.ETA_TT
 - dimensions:
     time:
-      default: '2021-01-11T18:40:00Z'
-      values: ['2021-01-11T15:40:00Z/2021-01-11T18:40:00Z/PT10M']
+      default: '2021-01-18T13:50:00Z'
+      values: ['2021-01-18T10:50:00Z/2021-01-18T13:50:00Z/PT10M']
   name: RADAR_1KM_RRAI
   sources: [RADAR_1KM_RRAI_cache]
-  title: RADAR_1KM_RRAI - North American radar composite (1 km) - Radar precipitation
-    rate (Rain) (1 km) [mm/hr]
+  title: RADAR_1KM_RRAI
 - dimensions:
     time:
-      default: '2021-01-11T18:40:00Z'
-      values: ['2021-01-11T15:40:00Z/2021-01-11T18:40:00Z/PT10M']
+      default: '2021-01-18T13:50:00Z'
+      values: ['2021-01-18T10:50:00Z/2021-01-18T13:50:00Z/PT10M']
   name: RADAR_1KM_RDBR
   sources: [RADAR_1KM_RDBR_cache]
-  title: RADAR_1KM_RDBR - North American radar composite (1 km) - Radar reflectivity
-    (Rain) (1 km) [dBZ]
+  title: RADAR_1KM_RDBR
 - dimensions:
     time:
-      default: '2021-01-11T18:40:00Z'
-      values: ['2021-01-11T15:40:00Z/2021-01-11T18:40:00Z/PT10M']
+      default: '2021-01-18T13:50:00Z'
+      values: ['2021-01-18T10:50:00Z/2021-01-18T13:50:00Z/PT10M']
   name: RADAR_1KM_RSNO
   sources: [RADAR_1KM_RSNO_cache]
-  title: RADAR_1KM_RSNO - North American radar composite (1 km) - Radar precipitation
-    rate (Snow) (1 km) [cm/hr]
+  title: RADAR_1KM_RSNO
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
+  name: GDPS.ETA_UU
+  sources: [GDPS.ETA_UU_cache]
+  title: GDPS.ETA_UU
+- dimensions:
+    reference_time:
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
+    time:
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_NT
   sources: [GDPS.ETA_NT_cache]
-  title: GDPS.ETA_NT - Global Deterministic Prediction System (GDPS) [15 km] - Total
-    cloud cover [%]
+  title: GDPS.ETA_NT
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_TT
   sources: [HRDPS.CONTINENTAL_TT_cache]
-  title: "HRDPS.CONTINENTAL_TT - High Resolution Deterministic Prediction System (HRDPS)\
-    \ [2.5 km] - Air temperature [\xB0C]"
+  title: HRDPS.CONTINENTAL_TT
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_HR
   sources: [HRDPS.CONTINENTAL_HR_cache]
-  title: HRDPS.CONTINENTAL_HR - High Resolution Deterministic Prediction System (HRDPS)
-    [2.5 km] - Relative humidity [%]
+  title: HRDPS.CONTINENTAL_HR
 - dimensions:
     time:
-      default: '2021-01-11T18:40:00Z'
-      values: ['2021-01-11T15:40:00Z/2021-01-11T18:40:00Z/PT10M']
+      default: '2021-01-18T13:50:00Z'
+      values: ['2021-01-18T10:50:00Z/2021-01-18T13:50:00Z/PT10M']
   name: RADAR_COVERAGE_RRAI.INV
   sources: [RADAR_COVERAGE_RRAI.INV_cache]
-  title: RADAR_COVERAGE_RRAI.INV - North American radar composite (1 km) - inverted
-    (Rain) (1km)
+  title: RADAR_COVERAGE_RRAI.INV
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_TD
   sources: [HRDPS.CONTINENTAL_TD_cache]
-  title: "HRDPS.CONTINENTAL_TD - High Resolution Deterministic Prediction System (HRDPS)\
-    \ [2.5 km] - Dew point temperature [\xB0C]"
+  title: HRDPS.CONTINENTAL_TD
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T15:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T03:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_RT
   sources: [GDPS.ETA_RT_cache]
-  title: GDPS.ETA_RT - Global Deterministic Prediction System (GDPS) [15 km] - Instantaneous
-    precipitation rate [kg/(m^2 s)]
+  title: GDPS.ETA_RT
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_NT
   sources: [HRDPS.CONTINENTAL_NT_cache]
-  title: HRDPS.CONTINENTAL_NT - High Resolution Deterministic Prediction System (HRDPS)
-    [2.5 km] - Total cloud cover [%]
+  title: HRDPS.CONTINENTAL_NT
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_SD
   sources: [GDPS.ETA_SD_cache]
-  title: GDPS.ETA_SD - Global Deterministic Prediction System (GDPS) [15 km] - Snow
-    depth [m]
+  title: GDPS.ETA_SD
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T13:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T07:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_PR
   sources: [HRDPS.CONTINENTAL_PR_cache]
-  title: HRDPS.CONTINENTAL_PR - High Resolution Deterministic Prediction System (HRDPS)
-    [2.5 km] - Precipitation accumulation [kg/(m^2)]
+  title: HRDPS.CONTINENTAL_PR
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T15:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T03:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_PR
   sources: [GDPS.ETA_PR_cache]
-  title: GDPS.ETA_PR - Global Deterministic Prediction System (GDPS) [15 km] - Precipitation
-    accumulation [kg/(m^2)]
+  title: GDPS.ETA_PR
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_HR
   sources: [GDPS.ETA_HR_cache]
-  title: GDPS.ETA_HR - Global Deterministic Prediction System (GDPS) [15 km] - Relative
-    humidity [%]
+  title: GDPS.ETA_HR
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_WGE
   sources: [HRDPS.CONTINENTAL_WGE_cache]
-  title: HRDPS.CONTINENTAL_WGE - High Resolution Deterministic Prediction System (HRDPS)
-    [2.5 km] - Wind gust estimate [m/s]
+  title: HRDPS.CONTINENTAL_WGE
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_SD
   sources: [RDPS.ETA_SD_cache]
-  title: RDPS.ETA_SD - Regional Deterministic Prediction System (RDPS) [10 km] - Snow
-    depth [m]
+  title: RDPS.ETA_SD
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T13:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T07:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL.DIAG_PTYPE
   sources: [HRDPS.CONTINENTAL.DIAG_PTYPE_cache]
-  title: HRDPS.CONTINENTAL.DIAG_PTYPE - High Resolution Deterministic Prediction System
-    (HRDPS) [2.5 km] - HRDPS diagnostic variables
+  title: HRDPS.CONTINENTAL.DIAG_PTYPE
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: HRDPS.CONTINENTAL_PN-SLP
   sources: [HRDPS.CONTINENTAL_PN-SLP_cache]
-  title: HRDPS.CONTINENTAL_PN-SLP - High Resolution Deterministic Prediction System
-    (HRDPS) [2.5 km] - HRDPS diagnostic variables
+  title: HRDPS.CONTINENTAL_PN-SLP
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_NT
   sources: [RDPS.ETA_NT_cache]
-  title: RDPS.ETA_NT -Regional Deterministic Prediction System (RDPS) [10 km] - Total
-    cloud cover [%]
+  title: RDPS.ETA_NT
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T13:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T07:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_SN
   sources: [RDPS.ETA_SN_cache]
-  title: RDPS.ETA_SN -Regional Deterministic Prediction System (RDPS) [10 km] - Snow
-    accumulation [kg/(m^2)]
+  title: RDPS.ETA_SN
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_WSPD
   sources: [GDPS.ETA_WSPD_cache]
-  title: GDPS.ETA_WSPD - RGlobal Deterministic Prediction System (GDPS) [15 km] -
-    Wind speed [m/s]
+  title: GDPS.ETA_WSPD
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_TT
   sources: [RDPS.ETA_TT_cache]
-  title: "RDPS.ETA_TT - Regional Deterministic Prediction System (RDPS) [10 km]- Air\
-    \ temperature [\xB0C]"
+  title: RDPS.ETA_TT
 - dimensions:
     time:
-      default: '2021-01-11T18:40:00Z'
-      values: ['2021-01-11T15:40:00Z/2021-01-11T18:40:00Z/PT10M']
+      default: '2021-01-18T13:50:00Z'
+      values: ['2021-01-18T10:50:00Z/2021-01-18T13:50:00Z/PT10M']
   name: RADAR_COVERAGE_RRAI
   sources: [RADAR_COVERAGE_RRAI_cache]
-  title: RADAR_COVERAGE_RRAI - North American radar composite (1 km)- Dynamic radar
-    coverage (Rain) (1km)
+  title: RADAR_COVERAGE_RRAI
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T13:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T07:00:00Z/2021-01-20T06:00:00Z/PT1H']
   name: CGSL.ETA_ICEC
   sources: [CGSL.ETA_ICEC_cache]
-  title: CGSL.ETA_ICEC - RDPS Coupled to Gulf of St. Lawrence (RDPS-CGSL)- Ice cover
-    fraction
+  title: CGSL.ETA_ICEC
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T15:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T03:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_SN
   sources: [GDPS.ETA_SN_cache]
-  title: GDPS.ETA_SN - Global Deterministic Prediction System (GDPS) [15 km] - Snow
-    accumulation [kg/(m^2)]
+  title: GDPS.ETA_SN
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-08T00:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-15T00:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T13:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T07:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.DIAG_NW_PT1H
   sources: [RDPS.DIAG_NW_PT1H_cache]
-  title: RDPS.DIAG_NW_PT1H - Regional Deterministic Prediction System (RDPS) [10 km]
-    - RDPS diagnostic variables
+  title: RDPS.DIAG_NW_PT1H
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_WD
   sources: [GDPS.ETA_WD_cache]
-  title: "GDPS.ETA_WD - Global Deterministic Prediction System (GDPS) [15 km] - Wind\
-    \ direction [\xB0]"
+  title: GDPS.ETA_WD
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_WGE
   sources: [RDPS.ETA_WGE_cache]
-  title: RDPS.ETA_WGE - Regional Deterministic Prediction System (RDPS) [10 km] -
-    Wind gust estimate [m/s]
+  title: RDPS.ETA_WGE
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T13:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T07:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_PR
   sources: [RDPS.ETA_PR_cache]
-  title: RDPS.ETA_PR - Regional Deterministic Prediction System (RDPS) [10 km] - Precipitation
-    accumulation [kg/(m^2)]
+  title: RDPS.ETA_PR
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T15:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T03:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_RN
   sources: [GDPS.ETA_RN_cache]
-  title: GDPS.ETA_RN - Regional Deterministic Prediction System (RDPS) [10 km] - Rain
-    accumulation [kg/(m^2)]
+  title: GDPS.ETA_RN
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-21T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T00:00:00Z/2021-01-28T00:00:00Z/PT3H']
   name: GDPS.ETA_WGE
   sources: [GDPS.ETA_WGE_cache]
-  title: GDPS.ETA_WGE - Global Deterministic Prediction System (GDPS) [15 km] - Wind
-    gust estimate [m/s]
+  title: GDPS.ETA_WGE
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T12:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T06:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_PN
   sources: [RDPS.ETA_PN_cache]
-  title: RDPS.ETA_PN - Regional Deterministic Prediction System (RDPS) [10 km] - Sea
-    level pressure (contour) [Pa]
+  title: RDPS.ETA_PN
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T15:00:00Z/2021-01-14T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T03:00:00Z/2021-01-21T00:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERGE1
   sources: [REPS.DIAG.3_PRMM.ERGE1_cache]
-  title: REPS.DIAG.3_PRMM.ERGE1 - Regional Ensemble Prediction System (REPS) - Quantity
-    of precipitation >= 1 mm [probability %]
+  title: REPS.DIAG.3_PRMM.ERGE1
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T15:00:00Z/2021-01-14T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T03:00:00Z/2021-01-21T00:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERGE5
   sources: [REPS.DIAG.3_PRMM.ERGE5_cache]
-  title: REPS.DIAG.3_PRMM.ERGE5 - Regional Ensemble Prediction System (REPS) - Quantity
-    of precipitation >= 5 mm [probability %]
+  title: REPS.DIAG.3_PRMM.ERGE5
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T00:00:00Z/2021-01-11T12:00:00Z/PT12H']
+      default: '2021-01-18T00:00:00Z'
+      values: ['2021-01-16T12:00:00Z/2021-01-18T00:00:00Z/PT12H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T15:00:00Z/2021-01-14T12:00:00Z/PT3H']
+      default: '2021-01-18T12:00:00Z'
+      values: ['2021-01-18T03:00:00Z/2021-01-21T00:00:00Z/PT3H']
   name: REPS.DIAG.3_PRMM.ERMEAN
   sources: [REPS.DIAG.3_PRMM.ERMEAN_cache]
-  title: REPS.DIAG.3_PRMM.ERMEAN - Regional Ensemble Prediction System (REPS) - Quantity
-    of precipitation (mean)
+  title: REPS.DIAG.3_PRMM.ERMEAN
 - dimensions:
     reference_time:
-      default: '2021-01-11T12:00:00Z'
-      values: ['2021-01-10T06:00:00Z/2021-01-11T12:00:00Z/PT6H']
+      default: '2021-01-18T06:00:00Z'
+      values: ['2021-01-16T18:00:00Z/2021-01-18T06:00:00Z/PT6H']
     time:
-      default: '2021-01-11T18:00:00Z'
-      values: ['2021-01-11T13:00:00Z/2021-01-13T12:00:00Z/PT1H']
+      default: '2021-01-18T13:00:00Z'
+      values: ['2021-01-18T07:00:00Z/2021-01-20T12:00:00Z/PT1H']
   name: RDPS.ETA_RT
   sources: [RDPS.ETA_RT_cache]
-  title: RDPS.ETA_RT - Regional Deterministic Prediction System (RDPS) [10 km] - Instantaneous
-    precipitation rate [kg/(m^2 s)]
+  title: RDPS.ETA_RT
 services:
   demo: null
   wms:
